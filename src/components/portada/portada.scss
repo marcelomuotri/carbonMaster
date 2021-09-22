@@ -1,0 +1,32 @@
+@import "../../scss/variables.scss";
+
+.portada {
+    &__flex {
+        display: flex;
+        background-image: url(../../assets//Fotos/portadaOp2.png);
+        height: 60.5rem;
+    }
+        &__flex{
+            display: flex;
+        }
+            &__titulo {
+                color: white;
+                font-family: $letraPrincipal;
+                font-size: 8rem;
+                margin-left: 50rem;
+                margin-top: 20rem;
+                z-index: 3;
+                
+        
+                &--blanco {
+                    color: $colorAzul;
+                    margin-left: 1rem;
+                
+            }
+        }
+   
+
+   
+    
+    
+}

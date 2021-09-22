@@ -1,0 +1,81 @@
+
+
+.navbar{
+   
+    width: 100%;
+    height: 14.4rem;
+    padding: 0;
+    background-color: black;
+
+    &__row{
+        //saco el margen raro ese
+        --bs-gutter-x: 0;
+    }
+
+        &__logo{
+                width: 50%;
+                margin-left: 40px;
+        }
+    
+    &__contenedor{
+        padding-right: 40px;
+    }
+
+        &__superior{
+            height: 7.2rem;
+        }
+
+            &__lista{
+                        list-style: none;
+                        color: white;
+                        font-size: 2rem;
+                        display: flex;
+                        height: 100%;
+                        justify-content: flex-end;
+                        margin-bottom: 0px;
+                        
+            }            
+                        
+                &__li{
+                    display:flex;
+                    align-items: center;
+                }
+
+                    &__palito{
+                        font-size: 3rem;
+                        padding-bottom: 8px;
+                        font-weight: 100;
+                        
+                    }
+
+                    &__lenguajes{
+                        font-size: 2rem;
+                        margin-left: 10px;
+                        margin-right: 10px;
+                    }
+        
+        &__inferior{
+            height: 7.2rem;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center; // vertical aligment
+        }    
+
+            &__instagram{
+                width:  3rem;    
+            }
+                    
+        &__linea{
+            margin:0;
+            border-top: 1px solid white;
+            opacity: 1;
+            margin-left: -6%;
+           
+        }            
+    }
+            
+        
+    
+
+
+

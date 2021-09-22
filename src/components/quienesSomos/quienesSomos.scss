@@ -1,0 +1,29 @@
+@import "../../scss/variables.scss";
+
+.sobreNosotros{
+    font-family: $letraPrincipal;
+    font-size: 6rem;
+    margin-left: 5rem;
+    color:white;
+
+    &__azul{
+        margin-left: 23rem;
+        margin-top: -2.5rem;
+    }
+
+    &__texto{
+        margin-top:5rem;
+    }
+
+    &__cuerpo{
+        font-family: $letraSecundaria;
+        font-size: 2rem;
+        color: white;
+        width: 90%;
+        margin-left: 5rem;
+        line-height: 3rem;
+        
+
+    }
+
+}

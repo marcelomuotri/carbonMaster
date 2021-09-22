@@ -1,0 +1,29 @@
+@import '../../../scss/variables.scss';
+
+
+.bm-burger-button {
+  position: relative;
+  width: 35px;
+  height: 28px;
+  margin-right: 7px;
+  
+  
+}
+
+
+  .bm-burger-bars {
+    background: white;
+  }
+
+  .bm-item-list{
+    padding-top: 5rem;
+  }
+
+  .menu-item{
+    text-decoration: none;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 5rem;
+    font-family: $letraPrincipal;
+    
+  }
