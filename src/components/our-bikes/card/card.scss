@@ -1,0 +1,34 @@
+.card{
+    width: 60rem;
+    height: 55rem;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+
+    &__contenedorFoto{
+        width: 60rem;
+        height: 40rem;
+        
+    }
+
+        &__background{
+            background-color: #101010;
+           
+                & img {
+                    border-radius: 20px 20px 0px 0px;
+                }
+             
+        }
+    
+
+        &__titulo{
+            font-family: $letraPrincipal;
+            font-size: 3rem;
+            margin-left: 3.5rem;
+            margin-top: 2.6rem;
+        }
+
+        
+
+}
+

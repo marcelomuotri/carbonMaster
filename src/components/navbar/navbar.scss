@@ -52,6 +52,7 @@
                         font-size: 2rem;
                         margin-left: 10px;
                         margin-right: 10px;
+                        cursor: pointer;
                     }
         
         &__inferior{
@@ -62,7 +63,9 @@
         }    
 
             &__instagram{
-                width:  3rem;    
+                width:  3.5rem;
+                margin-right: 2rem;
+                cursor: pointer;
             }
                     
         &__linea{

@@ -7,8 +7,9 @@ import flechader from '../../../assets/carousel/flechaDerecha.png'
 
 
 const Calesita = () => {
-    const images = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0].map((number) => ({
-        src: ``
+    const images = [10,9, 8, 7, 6, 5, 4, 3, 2, 1].map((number) => ({
+        src: `https://raw.githubusercontent.com/marcelomuotri/carbonMaster/main/src/assets/Fotos/${number}.jpg`
+
     }));
 
     return (
@@ -17,7 +18,9 @@ const Calesita = () => {
                 leftIcon={<img class="carousel__flechas" src={flechaizq}></img>}
                 rightIcon={<img class="carousel__flechas" src={flechader}></img>}
                 hasMediaButton={false}
-                style={{ height: 635, width: 1100 }} />
+                hasIndexBoard={false}
+              
+                style={{ height: 500, width: 934 }} />
         </div>
     );
 };

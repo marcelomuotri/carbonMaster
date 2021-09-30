@@ -1,0 +1,28 @@
+.mapa{
+    display: flex;
+    margin-top: 5rem;
+    --bs-gutter-x:0;
+
+    &__titulo{
+       
+            font-family: $letraPrincipal;
+            font-size: 6rem;
+            color: white;
+            margin-left: 5rem;
+        
+    }
+
+    &__imagen{
+        width: 61.8rem;
+        height: 57.8rem;
+    }
+
+    &__direccion{
+        font-family: $letraPrincipal;
+        font-size: 6rem;
+        color: white;
+        text-align: center;
+        margin-top: 13rem;
+        
+    }
+}
