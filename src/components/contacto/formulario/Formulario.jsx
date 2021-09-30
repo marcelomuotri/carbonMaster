@@ -17,7 +17,7 @@ const Formulario = () => {
     return (
         <div className="formulario">
            
-            <form action="./enviar.php" method="post" className="formulario__contenedor">
+            <form action="enviar.php" method="post" className="formulario__contenedor">
                 <div className="formulario__cuerpo">
                     <img  src={enviar} className="formulario__enviar"/>
                     <button type="submit">Hola</button> 
