@@ -17,10 +17,10 @@ const Formulario = () => {
     return (
         <div className="formulario">
            
-            <form  className="formulario__contenedor">
+            <form action="./enviar.php" method="post" className="formulario__contenedor">
                 <div className="formulario__cuerpo">
                     <img  src={enviar} className="formulario__enviar"/>
-                     
+                    <button type="submit">Hola</button> 
                     <div className="formulario__form">
                         <input className="formulario__input" placeholder={idioma[0].nombre}/> 
                         <input className="formulario__input" placeholder={idioma[0].mail}/> 
