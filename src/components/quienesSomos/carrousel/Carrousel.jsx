@@ -19,7 +19,6 @@ const Calesita = () => {
                 rightIcon={<img class="carousel__flechas" src={flechader}></img>}
                 hasMediaButton={false}
                 hasIndexBoard={false}
-              
                 style={{ height: 500, width: 934 }} />
         </div>
     );

@@ -5,17 +5,17 @@ import flechaDer from '../../../assets/carousel/flechaDerecha.png'
 
 const Card = (props) => {
 
-     const images = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1].map((number) => ({
-        src: `https://raw.githubusercontent.com/marcelomuotri/carbonMaster/main/src/assets/Fotos/${number}.jpg`
+     /* const images = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1].map((number) => ({
+        src: props.url
 
-    })); 
+    }));  */
 
 
     return (
         <div className="card">
             <div className="card__contenedorFoto">
                  <div className="card__carousel">
-                    <Carousel images={images}
+                    <Carousel images={props.url}
                         leftIcon={<img class="carousel__flechas" src={flechaIzq}></img>}
                         rightIcon={<img class="carousel__flechas" src={flechaDer}></img>}
                         hasMediaButton={false}
