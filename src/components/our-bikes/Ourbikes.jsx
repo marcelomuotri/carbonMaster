@@ -26,8 +26,8 @@ const OurBikes = () => {
             <p className="ourBikes__subtitulo">{idioma[0].textoNuestras}</p>
 
             <div className="ourBikes__card">
-                <Card titulo= {"HANDBIKE H5"} url={images}/>
-                <Card titulo= {idioma[0].textoDescripcion} url={images2}/>
+                <Card titulo= {"HANDBIKE H5"} url={images2}/>
+                <Card titulo= {idioma[0].textoDescripcion} url={images}/>
             </div>
         </div>
     )
