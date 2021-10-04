@@ -1,0 +1,20 @@
+.customModal {
+    width: 35rem;
+    height: 20rem;
+    background: black;
+    border: 3px solid #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    color:#2F89F9;
+    font-family: 'Agency FB';
+    text-align: center;
+
+}
+
+h2{
+    font-size: 2.5rem;
+}
+
+.imagenLogo{
+    width: 30%;
+}

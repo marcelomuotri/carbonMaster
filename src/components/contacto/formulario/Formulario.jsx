@@ -1,7 +1,14 @@
-import React, { useContext, useRef } from 'react'
+import React, { useContext, useRef, useState } from 'react'
 import adorno from '../../../assets/contacto/masymas.png'
+import logo from '../../../assets/Logo/Logo.jpg'
 import { DataContext } from '../../context/DataProvider'
 import emailjs from 'emailjs-com'
+
+import 'react-responsive-modal/styles.css';
+import { Modal } from 'react-responsive-modal';
+
+import './custom-styling.css'
+
 
 
 const Formulario = () => {
@@ -11,6 +18,15 @@ const Formulario = () => {
     const [idioma, setIdioma] = value.idioma
 
     const form = useRef();
+
+    //.............. modal//////////////
+
+    const [open, setOpen] = useState(true);
+
+
+    const onCloseModal = () => setOpen(false);
+
+    //////////////////////////////////////
 
     const sendEmail = (e) => {
         e.preventDefault();
@@ -23,6 +39,7 @@ const Formulario = () => {
             });
 
         form.current.reset()
+        setOpen(true);
 
     };
 
@@ -45,8 +62,21 @@ const Formulario = () => {
                 <img type="submit" src={adorno} className="formulario__adorno" />
             </form>
 
-            
-
+            <div>
+                <Modal showCloseIcon 
+                       open={open}
+                       onClose={onCloseModal} 
+                       showCloseIcon={false}
+                       classNames={{
+                            overlay: 'customOverlay',
+                            modal: 'customModal',
+                        }} 
+                        center>
+                    <img className="imagenLogo" src={logo} alt="logo"/>
+                    <h2>Gracias por tu consulta! </h2>
+                    <h2>Te responderemos a la brevedad </h2>
+                </Modal>
+            </div>
 
         </div>
     )

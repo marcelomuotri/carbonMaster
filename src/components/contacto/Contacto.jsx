@@ -1,5 +1,6 @@
 import React from 'react'
 import Formulario from './formulario/Formulario'
+
 import Mapa from './mapa/Mapa'
 
 
@@ -9,6 +10,7 @@ const Contacto = () => {
             
             <Mapa/>
             <Formulario/>
+            
         </div>
     )
 }
