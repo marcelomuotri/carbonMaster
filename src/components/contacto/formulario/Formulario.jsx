@@ -21,7 +21,7 @@ const Formulario = () => {
 
     //.............. modal//////////////
 
-    const [open, setOpen] = useState(true);
+    const [open, setOpen] = useState(false);
 
 
     const onCloseModal = () => setOpen(false);
