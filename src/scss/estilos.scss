@@ -7,10 +7,15 @@
 @import '../components/our-bikes/card/card.scss';
 @import '../components/contacto/mapa/mapa.scss';
 @import '../components/contacto/formulario/formulario.scss';
+@import '../components/footer/footer.scss';
 
 body{
     
     background-color: #101010;
 
    
+}
+
+.row{
+    --bs-gutter-x:0;
 }

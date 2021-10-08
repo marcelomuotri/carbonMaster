@@ -60,8 +60,6 @@ const Navbar = () => {
                          
                     </a>
                         <Hamburguesa/>
-
-
                     </div>
                 </div>
             </nav>

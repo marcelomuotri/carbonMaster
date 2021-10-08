@@ -58,8 +58,6 @@ const Formulario = () => {
                         <textarea name="text" className="formulario__mensaje" placeholder={idioma[0].consulta} required />
                     </div>
                 </div>
-
-                <img type="submit" src={adorno} className="formulario__adorno" />
             </form>
 
             <div>
@@ -73,8 +71,8 @@ const Formulario = () => {
                         }} 
                         center>
                     <img className="imagenLogo" src={logo} alt="logo"/>
-                    <h2>Gracias por tu consulta! </h2>
-                    <h2>Te responderemos a la brevedad </h2>
+                    <h2> {idioma[0].gracias} </h2>
+                    
                 </Modal>
             </div>
 

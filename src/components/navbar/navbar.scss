@@ -1,9 +1,9 @@
-
+@import url(https://allfont.es/allfont.css?fonts=agency-fb);
 
 .navbar{
    
     width: 100%;
-    height: 14.4rem;
+    height: 13rem;
     padding: 0;
     background-color: black;
 
@@ -13,7 +13,7 @@
     }
 
         &__logo{
-                width: 50%;
+                width: 45%;
                 margin-left: 40px;
         }
     
@@ -22,7 +22,7 @@
     }
 
         &__superior{
-            height: 7.2rem;
+            height: 6rem;
         }
 
             &__lista{
@@ -49,21 +49,22 @@
                     }
 
                     &__lenguajes{
-                        font-size: 2rem;
-                        margin-left: 10px;
-                        margin-right: 10px;
+                        font-size: 1.5rem;
+                        font-family: 'Poppins';
+                        margin-left: 7px;
+                        margin-right: 7px;
                         cursor: pointer;
                     }
         
         &__inferior{
-            height: 7.2rem;
+            height: 6rem;
             display: flex;
             justify-content: flex-end;
             align-items: center; // vertical aligment
         }    
 
             &__instagram{
-                width:  3.5rem;
+                width:  3rem;
                 margin-right: 2rem;
                 cursor: pointer;
             }

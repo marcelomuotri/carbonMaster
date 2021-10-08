@@ -6,7 +6,9 @@ import QuienesSomos from './components/quienesSomos/QuienesSomos';
 import OurBikes from './components/our-bikes/Ourbikes';
 import './scss/estilos.scss';
 import Contacto from './components/contacto/Contacto';
+import Footer from './components/footer/Footer'
 import DataProvider from './components/context/DataProvider'
+
 
 
 
@@ -21,6 +23,7 @@ function App() {
           <QuienesSomos />
           <OurBikes />
           <Contacto />
+          <Footer/>
         </header>
       </DataProvider>
     </div>

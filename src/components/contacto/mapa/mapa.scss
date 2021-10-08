@@ -1,7 +1,7 @@
 .mapa{
-    display: flex;
+    
     margin-top: 5rem;
-    --bs-gutter-x:0;
+   
 
     &__titulo{
        
@@ -12,17 +12,36 @@
         
     }
 
+    &__lineaAzul{
+        margin-top: -2.5rem;
+        margin-left: 10rem;
+        margin-bottom: 3rem;
+    }
+
     &__imagen{
         width: 61.8rem;
         height: 57.8rem;
     }
 
-    &__direccion{
-        font-family: $letraPrincipal;
-        font-size: 6rem;
-        color: white;
-        text-align: center;
-        margin-top: 13rem;
-        
+    &__centro{
+        align-self: center;
+        text-align: -webkit-center;
     }
+
+    &__contenedorDirecc{
+        width: 35rem;
+        display: flex;
+              
+            
+        }
+        &__direccion{
+            font-family: $letraPrincipal;
+            font-size: 4.5rem;
+            color: white;
+            text-align: center;
+            
+            
+    
+    }
+
 }
