@@ -2,11 +2,11 @@
 
 .carousel{
 
-    margin-left: 30rem;
-    margin-top: 5rem;
     
-   
-
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    
 
     &__flechas{
         width: 50%;
