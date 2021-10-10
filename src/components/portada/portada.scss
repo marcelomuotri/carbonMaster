@@ -1,11 +1,14 @@
 @import "../../scss/variables.scss";
 
 .portada {
+    height: 40.5vw;
     &__flex {
         display: flex;
         background-image: url(../../assets//Fotos/portadaOp4.png);
         background-position: center;
-        height: 62.5rem;
+        background-size: 100vw;
+        height: 100%;
+        justify-content: center;
     }
         &__flex{
             display: flex;
@@ -13,10 +16,10 @@
             &__titulo {
                 color: white;
                 font-family: $letraPrincipal;
-                font-size: 8rem;
-                margin-left: 50rem;
-                margin-top: 20rem;
+                font-size: 5.2vw;
+                
                 z-index: 3;
+                align-self: center;
                 
         
                 &--blanco {
