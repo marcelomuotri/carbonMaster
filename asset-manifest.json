@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/carbonMaster/static/css/main.35d31921.chunk.css",
-    "main.js": "/carbonMaster/static/js/main.dbbf8357.chunk.js",
-    "main.js.map": "/carbonMaster/static/js/main.dbbf8357.chunk.js.map",
+    "main.css": "/carbonMaster/static/css/main.46fcc663.chunk.css",
+    "main.js": "/carbonMaster/static/js/main.4fdc82fe.chunk.js",
+    "main.js.map": "/carbonMaster/static/js/main.4fdc82fe.chunk.js.map",
     "runtime-main.js": "/carbonMaster/static/js/runtime-main.73eabe88.js",
     "runtime-main.js.map": "/carbonMaster/static/js/runtime-main.73eabe88.js.map",
     "static/css/2.1fc28d19.chunk.css": "/carbonMaster/static/css/2.1fc28d19.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.905feac7.chunk.js.map": "/carbonMaster/static/js/3.905feac7.chunk.js.map",
     "index.html": "/carbonMaster/index.html",
     "static/css/2.1fc28d19.chunk.css.map": "/carbonMaster/static/css/2.1fc28d19.chunk.css.map",
-    "static/css/main.35d31921.chunk.css.map": "/carbonMaster/static/css/main.35d31921.chunk.css.map",
+    "static/css/main.46fcc663.chunk.css.map": "/carbonMaster/static/css/main.46fcc663.chunk.css.map",
     "static/js/2.16248ab4.chunk.js.LICENSE.txt": "/carbonMaster/static/js/2.16248ab4.chunk.js.LICENSE.txt",
     "static/media/Logo.5bb7839b.jpg": "/carbonMaster/static/media/Logo.5bb7839b.jpg",
     "static/media/mapa.11ef4d69.jpg": "/carbonMaster/static/media/mapa.11ef4d69.jpg",
@@ -23,7 +23,7 @@
     "static/js/runtime-main.73eabe88.js",
     "static/css/2.1fc28d19.chunk.css",
     "static/js/2.16248ab4.chunk.js",
-    "static/css/main.35d31921.chunk.css",
-    "static/js/main.dbbf8357.chunk.js"
+    "static/css/main.46fcc663.chunk.css",
+    "static/js/main.4fdc82fe.chunk.js"
   ]
 }
