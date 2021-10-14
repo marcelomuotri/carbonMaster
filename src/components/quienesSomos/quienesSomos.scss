@@ -8,22 +8,25 @@
     color:white;
 
     &__azul{
-        margin-left: 15rem;
+        margin-left: 7vw;
         margin-top: -2.5rem;
     }
 
     &__texto{
         margin-top: 5rem;
+        margin-right: 5rem;
+        margin-left: 5rem;
     }
 
     &__cuerpo{
         font-family: $letraPrincipal;
         font-size: 2.5rem;
         color: white;
-        width: 90%;
-        margin-left: 5rem;
-        line-height: 3rem;
         
+        
+        
+        line-height: 3rem;
+        text-align: justify;
     }
 
     &__contenedor{
@@ -31,4 +34,34 @@
         display: flex;
     }
 
+}
+
+@media (max-width: 900px) {
+    .sobreNosotros {
+
+        &__azul{  
+            width: 70%;
+
+
+        } 
+
+        &__texto{
+            margin-top: 3rem;
+        }
+    }
+}
+
+
+@media (max-width: 450px) {
+    .sobreNosotros {
+        text-align: center;
+        margin-top: 2rem;
+        margin-left: 0rem;
+
+        &__texto{
+            margin-top: 2rem;
+            margin-left: 2rem;
+            margin-right: 2rem;
+        }
+    }
 }

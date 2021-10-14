@@ -25,9 +25,9 @@ const OurBikes = () => {
             <img src={lineaAzul} alt="imagen azul" className="ourBikes__azul"></img>
             <p className="ourBikes__subtitulo">{idioma[0].textoNuestras}</p>
 
-            <div className="ourBikes__card">
-                <Card titulo= {"HANDBIKE H5"} url={images2}/>
-                <Card titulo= {idioma[0].textoDescripcion} url={images}/>
+            <div className="ourBikes__card row">
+                <Card className="col-lg-6 col-md-12" titulo= {"HANDBIKE H5"} url={images2}/>
+                <Card className="col-lg-6 col-md-12" titulo= {idioma[0].textoDescripcion} url={images}/>
             </div>
         </div>
     )

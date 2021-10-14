@@ -24,3 +24,14 @@
         justify-content: space-around;
     }
 }
+
+
+@media (max-width: 900px) {
+    .ourBikes {
+
+        &__azul{  
+            width: 0;
+
+        } 
+    }
+}

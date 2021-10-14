@@ -7,11 +7,6 @@
     padding: 0;
     background-color: black;
 
-    &__row{
-        //saco el margen raro ese
-        --bs-gutter-x: 0;
-    }
-
         &__logo{
                 width: 45%;
                 margin-left: 40px;

@@ -5,18 +5,17 @@
     border: none;
     border-radius: 20px;
 
-    &__contenedorFoto{
-        width: 60rem;
-        height: 40rem;
-        
-    }
+    
 
         &__background{
+            width: 100%;
+            height: 70%;
             background-color: #101010;
            
                 & img {
                     border-radius: 20px 20px 0px 0px;
                 }
+               
              
         }
     
@@ -31,3 +30,11 @@
 
 }
 
+@media (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: auto;
+
+       
+    }
+}

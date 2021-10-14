@@ -1,5 +1,5 @@
 import React, { useContext, useRef, useState } from 'react'
-import adorno from '../../../assets/contacto/masymas.png'
+
 import logo from '../../../assets/Logo/Logo.jpg'
 import { DataContext } from '../../context/DataProvider'
 import emailjs from 'emailjs-com'
@@ -8,7 +8,6 @@ import 'react-responsive-modal/styles.css';
 import { Modal } from 'react-responsive-modal';
 
 import './custom-styling.css'
-
 
 
 const Formulario = () => {
@@ -22,7 +21,6 @@ const Formulario = () => {
     //.............. modal//////////////
 
     const [open, setOpen] = useState(false);
-
 
     const onCloseModal = () => setOpen(false);
 
@@ -72,7 +70,6 @@ const Formulario = () => {
                         center>
                     <img className="imagenLogo" src={logo} alt="logo"/>
                     <h2> {idioma[0].gracias} </h2>
-                    
                 </Modal>
             </div>
 

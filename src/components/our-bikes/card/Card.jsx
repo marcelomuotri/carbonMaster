@@ -13,8 +13,8 @@ const Card = (props) => {
 
     return (
         <div className="card">
-            <div className="card__contenedorFoto">
-                 <div className="card__carousel">
+            
+                 
                     <Carousel images={props.url}
                         leftIcon={<img class="carousel__flechas" src={flechaIzq}></img>}
                         rightIcon={<img class="carousel__flechas" src={flechaDer}></img>}
@@ -23,9 +23,9 @@ const Card = (props) => {
                         hasSizeButton={false}
                         hasThumbnails={false}
                         className="card__background"
-                        style={{ width: 600, height: 400  }} />
-                </div> 
-            </div>
+                         />
+                
+            
 
             <div>
                 <h3 className="card__titulo">{props.titulo}</h3>

@@ -22,7 +22,7 @@ const QuienesSomos = () => {
                 </p>
                 <p className="sobreNosotros__cuerpo">  {idioma[0].textoSobre2}</p>
             </div>
-            <div className="sobreNosotros__contenedor" >
+            <div className="sobreNosotros__contenedor">
                 <Calesita />
             </div>
         </div>

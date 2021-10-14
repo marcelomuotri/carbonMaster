@@ -18,10 +18,7 @@
         margin-bottom: 3rem;
     }
 
-    &__imagen{
-        width: 61.8rem;
-        height: 57.8rem;
-    }
+  
 
     &__centro{
         align-self: center;
@@ -38,10 +35,37 @@
             font-family: $letraPrincipal;
             font-size: 4.5rem;
             color: white;
-            text-align: center;
-            
-            
-    
+            text-align: center;    
     }
 
+    &__mapouter{
+        display: flex;
+        justify-content: center;
+    
+    }
+        &__iframe{
+            width: 40vw;
+            height: 35vw;
+            
+            /* 618 * 578 */
+        }
+    
+
 }
+
+@media (max-width: 500px) {
+    .mapa {
+      
+        &__iframe{
+            width: 30rem;
+            height: 20rem;
+        }
+
+        &__lineaAzul{
+            width: 0;
+        }
+
+       
+    }
+}
+
