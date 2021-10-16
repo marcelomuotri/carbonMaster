@@ -7,9 +7,12 @@
     padding: 0;
     background-color: black;
 
+    &__row{
+        display: flex;
+    }
         &__logo{
-                width: 45%;
-                margin-left: 40px;
+                width: 90%;
+                margin-left: 2.8vw;
         }
     
     &__contenedor{
@@ -23,7 +26,6 @@
             &__lista{
                         list-style: none;
                         color: white;
-                        font-size: 2rem;
                         display: flex;
                         height: 100%;
                         justify-content: flex-end;
@@ -46,8 +48,8 @@
                     &__lenguajes{
                         font-size: 1.5rem;
                         font-family: 'Poppins';
-                        margin-left: 7px;
-                        margin-right: 7px;
+                        margin-left: 0.7rem;
+                        margin-right: 0.7rem;
                         cursor: pointer;
                     }
         
@@ -68,13 +70,53 @@
             margin:0;
             border-top: 1px solid white;
             opacity: 1;
-            margin-left: -6%;
+            margin-left: 4vw;
            
         }            
     }
             
         
     
+
+    
+@media (max-width: 900px) {
+    .navbar {
+
+        height: 11rem;
+
+        &__row{
+            display: flex;
+            align-items: center;
+        }
+
+        &__logo{  
+            width: 100%;
+            margin-left: 0;
+        } 
+
+        &__contenedor{
+            padding: 0;
+        }
+
+        &__superior{
+            height: 5.5rem;
+        }
+
+            &__lenguajes{
+                font-size: 1.2rem;
+            }
+
+        &__inferior{
+            height: 5.5rem;
+        }    
+
+            &__instagram{
+                width: 2.7rem;
+            }
+
+    }
+}
+
 
 
 

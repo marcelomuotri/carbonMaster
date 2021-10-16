@@ -19,11 +19,11 @@ const Navbar = () => {
 
     return (
         <div className="navbar">
-            <nav className="navbar__row row">
-                <div className="col-lg-2 col-md-4 col-sm-2">
+            <nav className="navbar__row ">
+                <div className="col-lg-1 col-md-2 ">
                     <img src={logo} className="navbar__logo" alt="Logo" />
                 </div>
-                <div className="col-lg-10 col-md-8 col-sm-10 navbar__contenedor">
+                <div className="col-lg-11 col-md-10   navbar__contenedor">
                     <div className="navbar__superior">
                         <ul className="navbar__lista">
                             <li className="navbar__li">
