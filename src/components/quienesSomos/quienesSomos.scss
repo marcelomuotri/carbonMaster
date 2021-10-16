@@ -40,11 +40,9 @@
     .sobreNosotros {
 
         &__azul{  
-            width: 70%;
-
-
+            width: 50%;
         } 
-
+        
         &__texto{
             margin-top: 3rem;
         }
@@ -54,14 +52,20 @@
 
 @media (max-width: 450px) {
     .sobreNosotros {
-        text-align: center;
+        margin-left: 2rem;
         margin-top: 2rem;
-        margin-left: 0rem;
+        font-size: 4rem;
+
+        &__cuerpo{
+            font-size: 2rem;
+        }
 
         &__texto{
             margin-top: 2rem;
             margin-left: 2rem;
             margin-right: 2rem;
+            font-size: 1.5rem!important;
+
         }
     }
 }

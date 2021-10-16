@@ -9,11 +9,18 @@
 
     &__row{
         display: flex;
+        justify-content:space-between ;
+        
     }
-        &__logo{
-                width: 90%;
-                margin-left: 2.8vw;
+
+        &__divLogo{
+            width: 7.7%;
         }
+            &__logo{
+                    width: 100%;
+                    height: 100%;
+                    margin-left: 2.8vw;
+            }
     
     &__contenedor{
         padding-right: 40px;
@@ -70,13 +77,28 @@
             margin:0;
             border-top: 1px solid white;
             opacity: 1;
-            margin-left: 4vw;
+            margin-left: -65vw;
            
         }            
     }
             
         
+
+
+
+@media (max-width: 1500px) {
+    .navbar{
+        &__linea{
+            margin-left: -55vw;
+        } 
+    }
     
+}  
+
+ 
+
+
+
 
     
 @media (max-width: 900px) {
@@ -90,8 +112,7 @@
         }
 
         &__logo{  
-            width: 100%;
-            margin-left: 0;
+           
         } 
 
         &__contenedor{
@@ -117,6 +138,30 @@
     }
 }
 
+@media (max-width: 800px) {
+    .navbar{
+        &__linea{
+            margin-left: -40vw;
+        } 
+        &__divLogo{
+            width: 14%;
+        } 
+    }
+
+}  
+
+
+@media (max-width: 430px) {
+    .navbar{
+        &__linea{
+            margin-left: 0vw;
+        } 
+        &__divLogo{
+            width: 20%;
+        } 
+    }
+
+} 
 
 
 

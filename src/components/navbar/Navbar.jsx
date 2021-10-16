@@ -20,10 +20,10 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <nav className="navbar__row ">
-                <div className="col-lg-1 col-md-2 ">
+                <div className="navbar__divLogo ">
                     <img src={logo} className="navbar__logo" alt="Logo" />
                 </div>
-                <div className="col-lg-11 col-md-10   navbar__contenedor">
+                <div className="   navbar__contenedor">
                     <div className="navbar__superior">
                         <ul className="navbar__lista">
                             <li className="navbar__li">
