@@ -26,12 +26,23 @@
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 450px) {
     .ourBikes {
 
         &__azul{  
-            width: 0;
-
+            width: 50%;
+            margin-left: 7vw;
         } 
+
+        &__titulo{
+            font-size: 4rem;
+            margin-left: 2rem;
+            
+        }
+        &__subtitulo{
+            margin-left: 2rem;
+            margin-right: 2rem;
+            font-size: 2rem;
+        }
     }
 }

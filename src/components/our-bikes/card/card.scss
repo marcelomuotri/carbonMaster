@@ -4,6 +4,7 @@
     background-color: white;
     border: none;
     border-radius: 20px;
+    margin-top: 2rem;
 
     
 
@@ -30,7 +31,7 @@
 
 }
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
     .card {
         width: 90%;
         height: auto;

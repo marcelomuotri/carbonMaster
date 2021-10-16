@@ -61,9 +61,22 @@
             height: 20rem;
         }
 
-        &__lineaAzul{
-            width: 0;
+        &__titulo{
+            font-size: 4rem;
+            margin-left: 2rem;
         }
+
+        &__lineaAzul{
+            width: 50%;
+            margin-left: 7vw;
+            margin-top: -1rem;
+        }
+
+        &__direccion{
+            font-size: 3.3rem;
+        }
+
+
 
        
     }
