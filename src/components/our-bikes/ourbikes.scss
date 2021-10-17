@@ -7,42 +7,47 @@
         margin-top: 5rem;
         color: white;
     }
-    &__azul{
+    &__azul {
         margin-left: 18rem;
         margin-top: -2.5rem;
     }
-    &__subtitulo{
+    &__subtitulo {
         font-family: $letraPrincipal;
         font-size: 2.5rem;
         color: white;
         margin-left: 5rem;
         margin-top: 2rem;
     }
-    &__card{
+    &__card {
         margin-top: 3rem;
         display: flex;
         justify-content: space-around;
     }
 }
 
+@media (max-width: 750px) {
+    .ourBikes {
+
+        &__azul {
+            width: 50%;
+            margin-left: 7vw;
+        }
+    }
+}
 
 @media (max-width: 450px) {
     .ourBikes {
 
-        &__azul{  
-            width: 50%;
-            margin-left: 7vw;
-        } 
-
-        &__titulo{
+        &__titulo {
             font-size: 4rem;
             margin-left: 2rem;
-            
         }
-        &__subtitulo{
+        &__subtitulo {
             margin-left: 2rem;
             margin-right: 2rem;
             font-size: 2rem;
         }
     }
 }
+
+

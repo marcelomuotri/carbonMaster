@@ -1,14 +1,12 @@
 .formulario {
     margin-top: 5rem;
 
-   
-
     &__contenedor {
         display: flex;
         justify-content: center;
     }
         &__cuerpo {
-            width: 82rem;
+            width: 80rem;
             height: 45rem;
             background: rgba(255, 255, 255, 0.12);
             border: 3px solid #ffffff;
@@ -31,9 +29,12 @@
                 justify-content: space-around;
                 margin-top: 3rem;
             }
+                &__divInput{
+                    width: 34rem;
+                }
 
                 &__input {
-                    width: 40%;
+                    width: 100%;
                     height: 5rem;
                     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -48,7 +49,7 @@
                 margin-top: 3rem;
             }    
                 &__mensaje{
-                    width: 90%;
+                    width: 73rem;
                     height: 26rem;
                     box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
                     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -64,14 +65,99 @@
         }        
 }
 
-@media (max-width: 900px) {
+@media (max-width: 850px) {
     .formulario {
 
         &__cuerpo{  
-            width: 80%;
-
+            width: 55rem;
         } 
+
+        &__form{
+            display: grid;
+        }
+
+        &__divInput{
+            display: flex;
+            justify-content: center;
+        }
+
+        &__mensaje{
+            width: 45rem;
+            height: 18rem;
+        }
+
+        &__boton{
+            width: 8%;
+            height: 10%;
+        }
+
+        
+    }
+}
+
+@media (max-width: 600px) {
+    .formulario {
+
+        &__cuerpo{  
+            width: 32rem;
+        } 
+
+        &__form{
+            display: grid;
+        }
+
+        &__divInput{
+            width: 25rem;
+            margin-top: 1rem;
+        }
+
+        &__mensaje{
+            width: 25rem;
+            height: 14rem;
+        }
+
+        &__boton{
+            width: 17%;
+            height: 12%;
+            margin-left: 90%;
+        }
+
+        
     }
 }
 
 
+
+@media (max-width: 330px) {
+    .formulario {
+
+        &__cuerpo{  
+            width: 24rem;
+        } 
+
+        &__form{
+            display: block;
+        }
+
+        &__divInput{
+            display: flex;
+            justify-content: center;
+            width: 20rem;
+            margin-left: 5vw;
+            margin-top: 1rem;
+        }
+
+        &__mensaje{
+            width: 20rem;
+            height: 11rem;
+        }
+
+        &__boton{
+            width: 22%;
+            height: 12%;
+            margin-left: 88%;
+        }
+
+        
+    }
+}

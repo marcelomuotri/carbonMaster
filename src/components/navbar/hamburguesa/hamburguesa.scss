@@ -31,3 +31,29 @@
   width: 15%!important;
   right: 1px;
 }
+
+
+@media (max-width: 850px) {
+  .menu-item{
+       
+  }
+
+  .fondo{
+    width: 25%!important;
+  }
+
+} 
+
+@media (max-width: 600px) {
+  .menu-item{
+       margin-bottom: 2rem;
+       font-size: 2.5rem;
+  }
+
+  .fondo{
+    width: 60vw!important;
+    background: rgba(0, 0, 0, 0.815)!important;
+  }
+
+} 
+

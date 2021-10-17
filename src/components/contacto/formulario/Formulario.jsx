@@ -20,7 +20,7 @@ const Formulario = () => {
 
     //.............. modal//////////////
 
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(true);
 
     const onCloseModal = () => setOpen(false);
 
@@ -49,8 +49,12 @@ const Formulario = () => {
                     <button type="submit" className="formulario__boton" >
                     </button>
                     <div className="formulario__form">
+                        <div className="formulario__divInput">
                         <input name="name" className="formulario__input" placeholder={idioma[0].nombre} required />
+                        </div>
+                        <div className="formulario__divInput">
                         <input name="email" type="email" className="formulario__input" placeholder={idioma[0].mail} required />
+                        </div>
                     </div>
                     <div className="formulario__contMsg">
                         <textarea name="text" className="formulario__mensaje" placeholder={idioma[0].consulta} required />
