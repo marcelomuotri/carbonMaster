@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/carbonMaster/static/css/main.ed88ffa2.chunk.css",
-    "main.js": "/carbonMaster/static/js/main.1277548f.chunk.js",
-    "main.js.map": "/carbonMaster/static/js/main.1277548f.chunk.js.map",
+    "main.js": "/carbonMaster/static/js/main.d680f8f5.chunk.js",
+    "main.js.map": "/carbonMaster/static/js/main.d680f8f5.chunk.js.map",
     "runtime-main.js": "/carbonMaster/static/js/runtime-main.73eabe88.js",
     "runtime-main.js.map": "/carbonMaster/static/js/runtime-main.73eabe88.js.map",
     "static/css/2.1fc28d19.chunk.css": "/carbonMaster/static/css/2.1fc28d19.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.1fc28d19.chunk.css",
     "static/js/2.16248ab4.chunk.js",
     "static/css/main.ed88ffa2.chunk.css",
-    "static/js/main.1277548f.chunk.js"
+    "static/js/main.d680f8f5.chunk.js"
   ]
 }
