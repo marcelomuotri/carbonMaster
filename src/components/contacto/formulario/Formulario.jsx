@@ -29,7 +29,7 @@ const Formulario = () => {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('service_0xc0i3j', 'template_rdtq80f', form.current, 'user_kbmMIKi1bEhnhQ6tjwqI2')
+        emailjs.sendForm('service_7o9s5zb', 'template_8rqt44o', form.current, 'user_xeEKgmZLIVuCdXI4DOM47')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
